@@ -1,0 +1,16 @@
+module.exports = {
+  translation: {
+    SKILL_NAME: 'VIN Generator',
+    EXIT_MESSAGE: 'Exiting VIN Generator',
+    FALLBACK_MESSAGE: `I can't help you with that. Tell me if you want a vin.`,
+    FALLBACK_REPROMPT: 'Tell me if you want a vehicle identification number.',
+    LAUNCH_MESSAGE: 'Welcome to VIN Generator. Would you like a vin?',
+    VIN_MESSAGE: `%s. Would you like a new vin?`,
+    CONTINUE_MESSAGE: 'Say vin or vehicle identification number',
+    REPEAT_MESSAGE: 'The last vin name was %s. Would you like a new vin?',
+    REPEAT_REPROMPT: 'Would you like a new vin?',
+    HELP_MESSAGE: 'Try asking me to give you a vin',
+    HELP_REPROMPT: 'Would you like to a vehicle identification number?',
+    ERROR_MESSAGE: 'Sorry, an error occurred.'
+  }
+};

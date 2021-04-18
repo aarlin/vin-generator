@@ -1,0 +1,63 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "vin generator",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewVINIntent",
+          "slots": [],
+          "samples": [
+            "vin",
+            "a vin",
+            "tell me a vin",
+            "give me a vin",
+            "tell me vin",
+            "give me vin",
+            "give me some vin",
+            "vehicle identification number",
+            "a vehicle identifcation number",
+            "tell me a vehicle identifcation number",
+            "give me a vehicle identifcation number",
+            "tell me vehicle identifcation number",
+            "give me vehicle identifcation number",
+            "give me some vehicle identifcation number"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "2"
+}
